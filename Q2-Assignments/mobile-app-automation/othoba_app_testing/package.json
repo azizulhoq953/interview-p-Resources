@@ -1,0 +1,24 @@
+{
+    "name": "othoba_app_testing",
+    "version": "1.0.0",
+    "description": "Test automation for Othoba app",
+    "scripts": {
+        "test": "wdio run wdio.conf.js",
+        "wdio": "wdio run ./wdio.conf.js"
+    },
+    "devDependencies": {
+        "@wdio/appium-service": "^9.0.9",
+        "@wdio/cli": "^9.0.9",
+        "@wdio/local-runner": "^9.0.9",
+        "@wdio/mocha-framework": "^9.0.8",
+        "@wdio/spec-reporter": "^9.0.8",
+        "allure-commandline": "^2.13.8",
+        "appium": "^2.0.0",
+        "appium-device-farm": "^9.2.11",
+        "appium-doctor": "^1.16.2",
+        "appium-reporter-plugin": "^1.1.0-beta.6",
+        "appium-uiautomator2-driver": "^3.7.9",
+        "mocha": "^8.4.0",
+        "webdriverio": "^7.16.0"
+    }
+}
