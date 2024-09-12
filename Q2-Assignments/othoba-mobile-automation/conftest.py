@@ -12,7 +12,7 @@ from config.capabilities import get_capabilities
 @pytest.fixture(scope="session")
 def appium_driver():
     """Fixture to initialize the Appium driver before tests and quit after tests."""
-    # Get the desired capabilities for the Appium session
+   
     desired_caps = get_capabilities()
 
     # Check if desired_caps is None or not a dictionary
